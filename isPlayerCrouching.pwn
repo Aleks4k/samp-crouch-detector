@@ -1,3 +1,7 @@
+/*
+	Crouch detection by Aleks4k
+	Usage: Check README.md
+*/
 bool:isPlayerCrouching(playerid){
 	if(GetPlayerAnimationIndex(playerid)){
 		new animlib[32];
